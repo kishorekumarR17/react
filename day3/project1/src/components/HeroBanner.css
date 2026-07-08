@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero img {
+  width: 900px;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.hero-content {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: white;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
